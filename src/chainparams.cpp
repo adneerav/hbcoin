@@ -130,6 +130,12 @@ public:
         // vSeeds.emplace_back("dnsseed.litecoinpool.org", true);
         // vSeeds.emplace_back("dnsseed.koin-project.com", false);
         vSeeds.emplace_back("52.204.203.7", true);
+        vSeeds.emplace_back("52.204.203.7", true);        
+        vSeeds.emplace_back("52.204.203.7", true);
+        vSeeds.emplace_back("52.204.203.7", true);
+        vSeeds.emplace_back("52.204.203.7", false);
+
+
         // vSeeds.emplace_back("seed-a.litecoin.loshan.co.uk", true);
         // vSeeds.emplace_back("dnsseed.thrasher.io", true);
         // vSeeds.emplace_back("dnsseed.litecointools.com", true);
@@ -235,6 +241,8 @@ public:
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
         vSeeds.emplace_back("52.204.203.7", true);
+        vSeeds.emplace_back("52.204.203.7", true);
+        vSeeds.emplace_back("52.204.203.7", true);        
         // vSeeds.emplace_back("testnet-seed.litecointools.com", true);
         // vSeeds.emplace_back("seed-b.litecoin.loshan.co.uk", true);
         // vSeeds.emplace_back("dnsseed-testnet.thrasher.io", true);
