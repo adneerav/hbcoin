@@ -129,11 +129,11 @@ public:
         // vSeeds.emplace_back("dnsseed.litecointools.com", true);
         // vSeeds.emplace_back("dnsseed.litecoinpool.org", true);
         // vSeeds.emplace_back("dnsseed.koin-project.com", false);
-        vSeeds.emplace_back("52.204.203.7", true);
-        vSeeds.emplace_back("52.204.203.7", true);        
-        vSeeds.emplace_back("52.204.203.7", true);
-        vSeeds.emplace_back("52.204.203.7", true);
-        vSeeds.emplace_back("52.204.203.7", false);
+        // vSeeds.emplace_back("52.204.203.7", true);
+        // vSeeds.emplace_back("52.204.203.7", true);        
+        // vSeeds.emplace_back("52.204.203.7", true);
+        // vSeeds.emplace_back("52.204.203.7", true);
+        // vSeeds.emplace_back("52.204.203.7", false);
 
 
         // vSeeds.emplace_back("seed-a.litecoin.loshan.co.uk", true);
@@ -149,7 +149,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
 
-        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
+        // vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
@@ -225,9 +225,9 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("52.204.203.7", true);
-        vSeeds.emplace_back("52.204.203.7", true);
-        vSeeds.emplace_back("52.204.203.7", true);        
+        // vSeeds.emplace_back("52.204.203.7", true);
+        // vSeeds.emplace_back("52.204.203.7", true);
+        // vSeeds.emplace_back("52.204.203.7", true);        
         // vSeeds.emplace_back("testnet-seed.litecointools.com", true);
         // vSeeds.emplace_back("seed-b.litecoin.loshan.co.uk", true);
         // vSeeds.emplace_back("dnsseed-testnet.thrasher.io", true);
@@ -239,7 +239,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
+        // vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
