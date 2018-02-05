@@ -101,10 +101,12 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000ba50a60f8b56c7fe0");
+        // consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000ba50a60f8b56c7fe0");
+        consensus.nMinimumChainWork = uint256S("0x00");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x29c8c00e1a5f446a6364a29633d3f1ee16428d87c8d3851a1c570be8170b04c2"); //1259849
+        // consensus.defaultAssumeValid = uint256S("0x29c8c00e1a5f446a6364a29633d3f1ee16428d87c8d3851a1c570be8170b04c2"); //1259849
+        consensus.defaultAssumeValid = uint256S("0x00"); //1259849
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -155,11 +157,11 @@ public:
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
 
-         checkpointData = (CCheckpointData) {
-            {
-                {  0, uint256S("0x13a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2")}
-            }
-        };
+        //  checkpointData = (CCheckpointData) {
+        //     {
+        //         {  0, uint256S("0x13a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2")}
+        //     }
+        // };
 
         chainTxData = ChainTxData{
             // Data as of block db42d00d824950a125f9b08b6b6c282c484781562fa8b3bd29d6ce4a2627c348 (height 1259851).
@@ -205,10 +207,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000364b0cbc3568");
+        consensus.nMinimumChainWork = uint256S("0x00");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xad8ff6c2f5580d2b50bd881e11312425ea84fa99f322bf132beb722f97971bba"); //153490
+        consensus.defaultAssumeValid = uint256S("0x00"); //153490
 
         pchMessageStart[0] = 0xfd;
         pchMessageStart[1] = 0xd2;
@@ -245,16 +247,16 @@ public:
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
 
-         checkpointData = (CCheckpointData) {
-            {
-                {0, uint256S("0x5066625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0")},
-            }
-        };
+        //  checkpointData = (CCheckpointData) {
+        //     {
+        //         {0, uint256S("0x5066625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0")},
+        //     }
+        // };
 
         chainTxData = ChainTxData{
-                        0,
-            0,
-            0
+            //             0,
+            // 0,
+            // 0
             // // Data as of block 3351b6229da00b47ad7a8d7e1323b0e2874744b5296e3d6448293463ab758624 (height 153489)
             // 1502953751,
             // 382986,
